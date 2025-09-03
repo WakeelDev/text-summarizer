@@ -50,7 +50,6 @@ Push your project to GitHub.
 
 
 Go to Streamlit Cloud.
-
 Connect your GitHub repository.
 Select streamlit.py as the entry point.
 Add requirements.txt so Streamlit installs dependencies automatically.
@@ -98,6 +97,8 @@ pgsql
 Copy code
 Artificial Intelligence is a fast-growing field focused on building
 machines that perform tasks requiring human-like intelligence.
+
+
 👤 Author
 Developed by Wakeel Khan
 🔗 GitHub Profile
