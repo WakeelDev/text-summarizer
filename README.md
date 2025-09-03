@@ -46,27 +46,23 @@ bash
 Copy code
 streamlit run streamlit.py
 🌐 Deployment on Streamlit Cloud
-Push your project to GitHub (already done ✅).
+Push your project to GitHub.
+
 
 Go to Streamlit Cloud.
 
 Connect your GitHub repository.
-
 Select streamlit.py as the entry point.
-
 Add requirements.txt so Streamlit installs dependencies automatically.
-
 Your app will be live in just a few minutes 🚀.
+
+
 
 ⚡ Requirements
 Python 3.8+
-
 Streamlit
-
 Transformers
-
 Torch
-
 Git LFS (for handling large model files)
 
 Install via:
@@ -74,20 +70,18 @@ Install via:
 bash
 Copy code
 pip install streamlit transformers torch
+
+
 ⚠️ Limitations of t5-small
 While t5-small is lightweight and fast, it comes with some trade-offs:
-
 Short context window: Handles only ~512 tokens (~400 words) at once. Long text must be chunked.
-
 Generic summaries: Sometimes repeats input phrases (especially starting sentences).
-
 Less accurate than larger models like t5-base or bart-large-cnn.
-
 Not domain-specific: Works best for general text but may struggle with technical or niche content.
-
 Summary length control: Options for minimum/maximum length don’t always produce strong variations.
 
 👉 For more accurate and fluent summaries, consider upgrading to a larger model (e.g., t5-base, bart-large-cnn) — but note they require more memory and compute.
+
 
 📌 Example
 Input Text
