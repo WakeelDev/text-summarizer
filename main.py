@@ -1,12 +1,8 @@
 import os
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-# ✅ Update your model path here (make sure it matches your local folder)
-MODEL_PATH = "C:/Users/klh/Desktop/Text smrizer/t5-small"
-
-
-print("Loading model from:", MODEL_PATH)
-print("Files in model folder:", os.listdir(MODEL_PATH))
+# ✅ Use relative path so it works on both local & Streamlit Cloud
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "models", "t5-small")
 
 # Load tokenizer and model
 tokenizer = T5Tokenizer.from_pretrained(MODEL_PATH)
