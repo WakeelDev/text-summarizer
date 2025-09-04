@@ -1,4 +1,5 @@
 import os
+import streamlit as st
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
 # ✅ Use relative path so it works on both local & Streamlit Cloud
