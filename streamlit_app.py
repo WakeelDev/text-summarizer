@@ -1,4 +1,4 @@
-import streamlit_app as st
+import streamlit as st
 from main import summarize_text
 
 st.set_page_config(page_title="Text Summarizer", layout="centered")
